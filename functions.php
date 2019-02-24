@@ -53,4 +53,4 @@ function WP_Bayville_widgets_init() {
 add_action( 'widgets_init', 'WP_Bayville_widgets_init' );
 
 //Include Navbar
-require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+require_once get_template_directory() . './classes/class-wp-bootstrap-navwalker.php';
